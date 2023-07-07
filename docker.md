@@ -118,4 +118,9 @@ docker run -d -p [访问 port]:[实际 port] --name [容器名称] [镜像名称
 
   一般情况下, 使用 COPY 居多, `ADD` 可以解压 tar.gz 文件
 
+### 参考资料
+
+- [写给前端的 Docker 入门终极指南，别再说不会用 Docker 了！](https://mp.weixin.qq.com/s/oEygasL-5owZ5b8mV6uMTw)
+
+- [掌握这 5 个技巧，让你的 Dockerfile 像个大师！](https://mp.weixin.qq.com/s/v9kznJ1OezUxA49-nd_r_Q)
 
