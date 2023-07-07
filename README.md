@@ -42,10 +42,7 @@
 
 ### Docker
 
-```sh
-# 构建镜像
-docker build -t dockerfile-test:second .
-```
+[点击查看 docker 总结](./docker.md)
 
 ## Installation
 
