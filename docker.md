@@ -33,7 +33,7 @@ docker run -d -p [访问 port]:[实际 port] --name [容器名称] [镜像名称
 
 - 使用 `alpine` 镜像
 
-  docker 容器内跑的是 Linux 系统, 各种镜像的 dockerfile 都会继承 Linux 作为基础镜像. 而 `alpine` 是 linux 镜像更小的版本. 它裁剪了很多不必要的 Linux 功能, 使得体积大幅减少.
+  `docker` 容器内跑的是 `Linux` 系统, 各种镜像的 `dockerfile` 都会继承 `Linux` 作为基础镜像. 而 `alpine` 是 `Linux` 镜像更小的版本. 它裁剪了很多不必要的 `Linux` 功能, 使得体积大幅减少.
 
   示例:
 
