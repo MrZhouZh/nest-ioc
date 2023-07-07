@@ -40,6 +40,13 @@
 
 - 可以用 useExisting 给已有的 token，指定一个新 token
 
+### Docker
+
+```sh
+# 构建镜像
+docker build -t dockerfile-test:second .
+```
+
 ## Installation
 
 ```bash
