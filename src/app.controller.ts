@@ -1,4 +1,4 @@
-import { Controller, Get, Headers, Inject } from '@nestjs/common';
+import { Controller, Get, Inject } from '@nestjs/common';
 import { AppService } from './app.service';
 
 @Controller()
@@ -28,9 +28,7 @@ export class AppController {
   // ) {}
 
   @Get()
-  getHello(@Headers() headers): string {
-    console.log('access');
-    // console.log(headers);
+  getHello(): string {
     // console.log(this.person);
     // console.log(this.person2);
     // console.log(this.person3);
